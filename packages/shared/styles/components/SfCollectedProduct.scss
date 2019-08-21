@@ -1,0 +1,9 @@
+@import '../variables';
+
+
+.sf-collected-product {
+  display: flex;
+  &__image {
+    width: 150px;
+  }
+}

@@ -1,0 +1,17 @@
+<div class="sf-collected-product">
+  <SfImage class="sf-collected-product__image" src="https://via.placeholder.com/150"></SfImage>
+  <slot name="title">
+    <span class="sf-collected-product__title">
+      Product name
+    </span>
+  </slot>
+  <slot name="price" v-bind="{ specialPrice, regularPrice }">
+    <SfPrice
+      class="sf-collected-product__price"
+      v-if="regularPrice"
+      :regular="regularPrice"
+      :special="specialPrice"
+    />
+    </slot>
+  <slot></slot>
+</div>
