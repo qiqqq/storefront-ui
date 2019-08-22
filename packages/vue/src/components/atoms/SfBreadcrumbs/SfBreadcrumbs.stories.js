@@ -108,7 +108,7 @@ storiesOf("Atoms|Breadcrumbs", module)
           on breadcrumbs nav.
         </p>
         <h2>Usage</h2>
-        <pre><code>import { SfBreadcrumbs } from "@storefrontui/vue"</code></pre>
+        <pre><code>import { SfBreadcrumbs } from "@storefront-uiiiiii/vue"</code></pre>
         ${generateStorybookTable(scssTableConfig, "SCSS variables")}
         `
       }
